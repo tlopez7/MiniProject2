@@ -1,0 +1,3 @@
+# Reflection: benchmarking-initiative_benchmark-models-petab
+
+Benchmarking-Initiative/Benchmark-Models-PEtab shows a cyclical pattern -- recurring bursts of model-contribution activity every few months with no clear long-term trend, just as active in late 2025 as in 2021. Its one recorded 3-month gap (2020-07 to 2020-09) sits right at the start of its real activity (before 81% of all commits happened), reading as an early lull before the project found its steady community rhythm rather than a sign of abandonment. The contributor base shows healthy turnover -- some names persist across the gap while several new contributors appear afterward -- consistent with a community benchmark repository where people periodically join to contribute their own model.

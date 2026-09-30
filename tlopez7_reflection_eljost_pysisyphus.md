@@ -1,0 +1,3 @@
+# Reflection: eljost_pysisyphus
+
+eljost/pysisyphus shows no real inactivity gap -- the longest stretch of zero commits was just 1 month, and the project sustained high, volatile activity (50-300 commits/month) for nearly its entire 8-year history. This is a case where gap analysis isn't really applicable; the project is best described by its overall irregular pattern. The one consistent thread is a single primary author (Johannes Steinmetzer) across the commits examined, suggesting a single-researcher scientific computing project developed in bursts tied to research needs rather than a team-maintained package with distinct dormant periods. A genuine slowdown appears in late 2025, worth monitoring even though it doesn't meet the 3-month gap threshold yet.

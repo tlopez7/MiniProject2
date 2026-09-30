@@ -1,0 +1,3 @@
+# Reflection: simonvh_genomepy
+
+simonvh/genomepy shows a declining trajectory: strong, spiky activity from 2019-2022 gives way to a 9-month gap (2023-12 to 2024-08) and only a trickle afterward (3% of all commits). The gap was moderately easy to interpret -- commits right before it are release/deployment maintenance with no sign of distress, while commits right after fix a broken MySQL dependency, a classic external-trigger recovery rather than organic development. The same core maintainer (siebrenf) appears both before and after, joined by one additional contributor (Maarten-vd-Sande) post-gap, indicating a small, dedicated team doing reactive maintenance on a mostly-finished tool.

@@ -1,0 +1,3 @@
+# Reflection: brentp_cyvcf2
+
+brentp/cyvcf2 has been sparse and inconsistent for its entire lifespan, with 3 separate gaps of 3+ months across its history. The most recent and longest (2024-10 to 2025-08, 11 months) was easy to interpret: commits immediately after are entirely about adding CI support for new Python versions (3.13, 3.14) -- the maintainer returned because a new Python release required compatibility updates, not organic new development. The primary maintainer (Brent Pedersen) is present in both pre- and post-gap commits, joined by a new contributor (Ben Jeffery) after the gap, suggesting the core maintainer relies on periodic help to keep pace with the Python ecosystem's release cycle.

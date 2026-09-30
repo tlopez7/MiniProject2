@@ -1,0 +1,733 @@
+pre_post;project_wocid;commit_sha1;author;time;commit message
+pre;gavinsimpson_permute;f1f676b7c32e3e2f2021ec840ecc0e7c92fe0fac;Gavin Simpson <ucfagls@gmail.com>;1552240020;"fix tests of shuffle affected by change to RNG in r 3.6.0
+"
+pre;gavinsimpson_permute;03d0630f59ef0f41d903bbe30dd3447102f3fc2b;Gavin Simpson <ucfagls@gmail.com>;1552240300;"tweak a travis setup as need to be checking this on R-devel
+"
+pre;gavinsimpson_permute;bef8e224d7b01b7ad83991889680fed4eebad26c;Gavin Simpson <ucfagls@gmail.com>;1552241432;"set RNG from 3.5 in tests
+"
+pre;gavinsimpson_permute;92ee9393b33cd3856b5799fc54cb3222594bc5f5;Gavin Simpson <ucfagls@gmail.com>;1552241454;"bump version
+"
+pre;gavinsimpson_permute;b9cf1c7930c9e41397456033842a9deead743d56;Gavin Simpson <ucfagls@gmail.com>;1552242410;"set RNGversion to 3.5
+"
+pre;gavinsimpson_permute;b5b1e4f81596179a89c52ba21b5fc0757f443923;Gavin Simpson <ucfagls@gmail.com>;1552242422;"set RNGversion to 3.5
+"
+pre;gavinsimpson_permute;2e4954db7f80508975a4955e3f67b4e2de916b94;Gavin Simpson <ucfagls@gmail.com>;1552242439;"rebuild reference example output
+"
+pre;gavinsimpson_permute;421428d8daebefb7aca6edca3a122c397e204a17;Gavin Simpson <ucfagls@gmail.com>;1552244127;"set RNGversion to 3.5
+"
+pre;gavinsimpson_permute;81eb79c4024962bdda53591e288591fb262c099b;Gavin Simpson <ucfagls@gmail.com>;1552244142;"rebuild reference example output
+"
+pre;gavinsimpson_permute;351b1f4b15348808645fbb9f98a765b4cea9c514;Gavin Simpson <ucfagls@gmail.com>;1552244182;"Merge branch 'issue-25':
+
+These commits fix issues related to the use of a new, default, RNG method
+in R-devel (to be 3.6.x), which was causing failures in unit tests and
+differences in outputs of examples/vignettes etc. This is fixed temporarily
+here. A broader fix might be to require R >= 3.6.0 when it is released.
+Closes #25
+"
+post;gavinsimpson_permute;e20bae2d367afdda390f7f78947e2638f066e2d6;Gavin Simpson <ucfagls@gmail.com>;1636102046;"ignore revdeps
+"
+post;gavinsimpson_permute;1081e4527a2be0546951c329d4f340faf1ea3876;Gavin Simpson <ucfagls@gmail.com>;1636102065;"fix for #28
+"
+post;gavinsimpson_permute;1cd2cd285348fe0b8670da7109bb0331f7f63ffe;Gavin Simpson <ucfagls@gmail.com>;1636102088;"docmument problem and fix for #28 and bump version
+"
+post;gavinsimpson_permute;46aa3c14887e733ba8dc723211a7b74e13ee592f;Gavin Simpson <ucfagls@gmail.com>;1636102113;"build the R tarball with --compact-vignettes
+"
+post;gavinsimpson_permute;0677e941b75e155efafb1a0e42e41f8ab3fb8900;Gavin Simpson <ucfagls@gmail.com>;1636109498;"add GH action to check package
+"
+post;gavinsimpson_permute;b172002bdc1540ada183dc0a7882fd24a83b8243;Gavin Simpson <ucfagls@gmail.com>;1636109900;"add a latex stack
+"
+post;gavinsimpson_permute;957a97a7eb8f03f6f405fdf37ca8780901a387e9;Gavin Simpson <ucfagls@gmail.com>;1636115346;"convert the vignette to rmarkdown/html
+"
+post;gavinsimpson_permute;df74e408eb7266ac7510c46e85c1ea92f9b7b6b3;Gavin Simpson <ucfagls@gmail.com>;1636115364;"ignore the GH folder
+"
+post;gavinsimpson_permute;a2f05ea8e32f1cc128c50bc846b39680d542e4d8;Gavin Simpson <ucfagls@gmail.com>;1636115376;"rebuild reference output
+"
+post;gavinsimpson_permute;4c7fd49c566dcdd77a30857270bfd4cb160cfd55;Gavin Simpson <ucfagls@gmail.com>;1636115477;"don't need latex any longer
+"
+pre;openclimatefix_satip;01a382731dec66667ef515b33263cdae6563baf0;AyrtonB <AyrtonBourn@Outlook.com>;1616767618;"added offline summary and validation
+"
+pre;openclimatefix_satip;e19454e364b8b97f6ffb9e8a8ba945441a6aac77;AyrtonB <AyrtonBourn@Outlook.com>;1616768372;"cleaned up time-series extraction nb
+"
+pre;openclimatefix_satip;46d245b062dc547ff48a10d3a104060dbdb17a24;AyrtonB <AyrtonBourn@Outlook.com>;1616768952;"updated settings.ini and mkdocs.yml to reflect repo move
+"
+pre;openclimatefix_satip;10c83555e61b11a05fe8e994a189ed23461d70da;AyrtonB <AyrtonBourn@Outlook.com>;1616769377;"cleaned up zarr nb docs
+"
+pre;openclimatefix_satip;b5c725dcbe2280ded1d347bad07a83f8349b34cb;AyrtonB <AyrtonBourn@Outlook.com>;1616770165;"cleaned up reprojection nb
+"
+pre;openclimatefix_satip;dd356b40ee16e0d822bf58c84b220fb0738aad11;AyrtonB <AyrtonBourn@Outlook.com>;1616770632;"made doc sections have consistent formatting
+"
+pre;openclimatefix_satip;6705361e76620bc4eb249793ae45006da98ac30f;AyrtonB <AyrtonBourn@Outlook.com>;1616771583;"cleaned up docs export and formatting
+"
+pre;openclimatefix_satip;19f3ca8cac16362cb9302c8b1467a0419cd60706;AyrtonB <AyrtonBourn@Outlook.com>;1616772817;Deployed 6705361 with MkDocs version: 1.1.2
+pre;openclimatefix_satip;9f373b94601c9c0243613115b493707ace1ebad0;Rabscuttler <laurence.watson@gmail.com>;1617967279;"Add batch config
+"
+pre;openclimatefix_satip;91c34889fb704bf6d25fbca51b658b8546cf5786;Jacob Bieker <jacob@openclimatefix.org>;1623438291;"Update settings to be more flexible, remove hardcoding of product_id
+"
+post;openclimatefix_satip;a064a085940e7af87634532668d74371b7297798;Jacob Bieker <jacob@bieker.tech>;1633014274;"Update with the extra collection_id config
+"
+post;openclimatefix_satip;66d6d3bc5aa7693c018de9af24eaf33175510390;Jacob Bieker <jacob@bieker.tech>;1633016309;"Fix link creation
+"
+post;openclimatefix_satip;e46013831071e8e4a4759ca46421d5355c342d1f;Jacob Bieker <jacob@bieker.tech>;1633016641;"Remove inserting into SQL database
+"
+post;openclimatefix_satip;f80fd886d8c8c6441822c1b0f08c88a539b071e9;Jacob Bieker <jacob@bieker.tech>;1633074394;"Remove getting metadata
+
+Don't have it currently for non-RSS images, so use this instead
+"
+post;openclimatefix_satip;82a356b8931d6e62a94aa3c02f87647606a1eb8a;Jacob Bieker <jacob@bieker.tech>;1633087361;"Remove unneeded code
+
+Refocuses Satip to just a wrapper around the EUMETSAT API
+"
+post;openclimatefix_satip;b5aa47fc2115c19a0cfaf060084c8156fcb847b3;Jacob Bieker <jacob@bieker.tech>;1633088121;"Update CI/CD
+"
+post;openclimatefix_satip;19a8f11ff5b4bc80eac9282ac7cfc60b74387a40;Jacob Bieker <jacob@bieker.tech>;1633088197;"Update version
+"
+post;openclimatefix_satip;86792b15e1749858791bb1d6eb7e6a5e58a42487;Jacob Bieker <jacob@bieker.tech>;1633088248;"Update test
+"
+post;openclimatefix_satip;cb5a4db2ce10f687d3f657ab680414dd4bbfe50d;Jacob Bieker <jacob@bieker.tech>;1633088557;"Add test
+"
+post;openclimatefix_satip;0a9bdbdbc5204b76789707486a2781413f0fd8ae;Jacob Bieker <jacob@bieker.tech>;1633088621;"Fix setup
+"
+pre;juliaopt_convex.jl;70cc0a904db43fe894c889873ae74b4931c9967b;Alan Edelman <mit.edelman@gmail.com>;1673443284;replace randn(m,1) with randn(m) to be more Julia like
+pre;juliaopt_convex.jl;d5e02084dd7a5f7764bf7c738ca9ee8566e26c04;Alan Edelman <mit.edelman@gmail.com>;1673462458;"replace randn(m,1) with randn(m) to be more Julia like (#498)
+
+"
+pre;juliaopt_convex.jl;c6246635891358def7318a7b7a6d1b8d72f2848c;Theo Diamandis <tjdiamandis@gmail.com>;1675542861;"add cartesian indexing
+"
+pre;juliaopt_convex.jl;102562e9245eafe8555136c0bc566d75aa6b8dcf;Theo Diamandis <tjdiamandis@gmail.com>;1675741218;"change to AbstractExpr, add tests
+"
+pre;juliaopt_convex.jl;575dfc21e9234f766b66a2e409b983818a8bd411;Theo Diamandis <tjdiamandis@gmail.com>;1675742385;"N dimensional
+"
+pre;juliaopt_convex.jl;1b8fa124c1ba1cf1d3888bef0900d21e5a0d2a40;Oscar Dowson <odow@users.noreply.github.com>;1675749654;Apply suggestions from code review
+pre;juliaopt_convex.jl;0c1bb96d3721f2f5a9b288997548cb683558177b;Theo Diamandis <tdiamand@mit.edu>;1676070820;"Add support for CartesianIndex (#500)
+
+"
+pre;juliaopt_convex.jl;cbe9d92ebc67aebf60fd1a924999aea82a3350c3;Oscar Dowson <odow@users.noreply.github.com>;1676070868;Prep for 0.15.3
+pre;juliaopt_convex.jl;f47c20c9c08ab961e15233ccfb9a22e711a1ded7;odow <o.dowson@gmail.com>;1676071802;"Update release notes
+"
+pre;juliaopt_convex.jl;c6a21df2979dc1eaf60674f7f4b1324a4f30f8b8;Oscar Dowson <odow@users.noreply.github.com>;1676078505;"Prep for v0.15.3 (#501)
+
+"
+post;juliaopt_convex.jl;bf42623b84fa5a36d20731be7e5996cfc10ee73f;Eric Hanson <5846501+ericphanson@users.noreply.github.com>;1688684991;"reland on master
+"
+post;juliaopt_convex.jl;48b026a63ae58df12938915b0a7dbd8f6c0e7fe3;Eric Hanson <5846501+ericphanson@users.noreply.github.com>;1688684991;"reland on master
+"
+post;juliaopt_convex.jl;12cfdf0c60873068594500c4cee5ea56e808d92e;Eric Hanson <5846501+ericphanson@users.noreply.github.com>;1688685222;"add tests
+"
+post;juliaopt_convex.jl;74be9b4293837cdf045e70cd8cae998a43b8e894;Eric Hanson <5846501+ericphanson@users.noreply.github.com>;1688685222;"add tests
+"
+post;juliaopt_convex.jl;f8afbd52ab8d12b9e13d73fc292718469505a973;Eric Hanson <5846501+ericphanson@users.noreply.github.com>;1688685435;"remove more complicated variants
+"
+post;juliaopt_convex.jl;ee31f1b87a5c10ece08854abb90adbd6233c0862;Eric Hanson <5846501+ericphanson@users.noreply.github.com>;1688685435;"remove more complicated variants
+"
+post;juliaopt_convex.jl;771d5fd74ed23e14ac39afa911fd0dd753dbf807;Eric Hanson <5846501+ericphanson@users.noreply.github.com>;1688685699;"remove 2's from names
+"
+post;juliaopt_convex.jl;1462d5959326235cf60e39459f96c21d3d01e504;Eric Hanson <5846501+ericphanson@users.noreply.github.com>;1688685699;"remove 2's from names
+"
+post;juliaopt_convex.jl;281c1513a7c7399a396561f4832583322305095f;Eric Hanson <5846501+ericphanson@users.noreply.github.com>;1688686269;"simplify
+"
+post;juliaopt_convex.jl;cbcda97141cc05b6603bd0ff05e9a9f246334983;Eric Hanson <5846501+ericphanson@users.noreply.github.com>;1688686269;"simplify
+"
+pre;eljost_pysisyphus;f7fe66159515fcac98c0deb85dd95cdb5095d61c;Johannes Steinmetzer <johannes.steinmetzer@uni-jena.de>;1505301780;"added some new HCN isomerization TS geometries
+"
+pre;eljost_pysisyphus;65c3faa286b9eb2ea48a1bcc9020fb51d0f41494;Johannes Steinmetzer <johannes.steinmetzer@uni-jena.de>;1505312957;"started implementing damped velocity verlet
+"
+pre;eljost_pysisyphus;91040c296b87568808af867ee367e0193ada52f6;Johannes Steinmetzer <johannes.steinmetzer@uni-jena.de>;1505312999;"refactoring and introduced the reset method in IRC.py
+"
+pre;eljost_pysisyphus;713afc72f2d8cae1f4699696fa5828813d118e96;Johannes Steinmetzer <johannes.steinmetzer@uni-jena.de>;1505381825;"further work on DVV
+"
+pre;eljost_pysisyphus;dfcf64b4eff5cc2e83a9722268f5982876f9b466;Johannes Steinmetzer <johannes.steinmetzer@uni-jena.de>;1505382270;"some pep8 formatting
+"
+pre;eljost_pysisyphus;2a3d7c12f5492e332eb0c3b22dacb608016dc1e4;Johannes Steinmetzer <johannes.steinmetzer@uni-jena.de>;1505383446;"starting to implement IRC path length
+"
+pre;eljost_pysisyphus;03d003a13bb8bfac8cfaaf5fa5d219e16a3965d2;Johannes Steinmetzer <johannes.steinmetzer@uni-jena.de>;1505384053;"added massweighted properties for the geometries
+"
+pre;eljost_pysisyphus;e15649e5e639828b0df0478b26aeb0b6937d6e3a;Johannes Steinmetzer <johannes.steinmetzer@uni-jena.de>;1505389027;"implementing MW pahts
+"
+pre;eljost_pysisyphus;2329af2d2e2155f7d7b8724f0603a6e99ac45b04;Johannes Steinmetzer <johannes.steinmetzer@uni-jena.de>;1505397698;"added euler irc integrator
+"
+pre;eljost_pysisyphus;027a09d12382ddb942dbfcd8fbe67e45ebb93e67;Johannes Steinmetzer <jsteinmetzer1108@aol.com>;1505482404;"added some tests and much refactoring
+"
+post;eljost_pysisyphus;cb76937276176973346a7611e825f1989728a61a;Johannes Steinmetzer <jsteinmetzer1108@aol.com>;1509982030;"initial implementation of XTB calculator
+"
+post;eljost_pysisyphus;c2b8a3526f5b7bc14b25d1d67e06463fb2db0959;Johannes Steinmetzer <jsteinmetzer1108@aol.com>;1510041490;"fixed erronous returning of a pyparsing.Word instead of the
+intended scf_energy
+"
+post;eljost_pysisyphus;a2e7cd3fe21cb7201c1c00e0a0ed2d8e8d75323f;Johannes Steinmetzer <jsteinmetzer1108@aol.com>;1510047276;"energies are also saved now
+"
+post;eljost_pysisyphus;771f56214d276d02cb8af5fd6e720497cfb3be08;Johannes Steinmetzer <jsteinmetzer1108@aol.com>;1510047311;"added script to plot energies of chain of stats optimization
+"
+post;eljost_pysisyphus;7be49adca489ea950e904eaef4e247e8ac9cb40d;Johannes Steinmetzer <jsteinmetzer1108@aol.com>;1510049302;"crashed jobs are now saved under $cwd/crashed
+"
+post;eljost_pysisyphus;1109b9b8b1bb67ddb54c85bb05f6c2fd1ba42d46;Johannes Steinmetzer <jsteinmetzer1108@aol.com>;1510050135;"separate output-dirs are now supported
+"
+post;eljost_pysisyphus;24d0e29af9596d2bf45a73285a8ba26d5fc3de4e;Johannes Steinmetzer <jsteinmetzer1108@aol.com>;1510052274;"added some tests and check for atom ordering in ChainOfStates
+"
+post;eljost_pysisyphus;6ada67736ac083de4bba04e1dd76ca5adf3c64d8;Johannes Steinmetzer <jsteinmetzer1108@aol.com>;1510063876;"split up cubic splines in SimpleZTS into smaller chunks so
+it doens't crash anymore for more than three atoms.
+"
+post;eljost_pysisyphus;0474d2597e931eac4eceb0aa702eabeefb74205b;Johannes Steinmetzer <jsteinmetzer1108@aol.com>;1510065536;"reorganized package
+"
+post;eljost_pysisyphus;ca1f5a86ed75099e9a67c04aeb8b6941beb34362;Johannes Steinmetzer <jsteinmetzer1108@aol.com>;1510070041;"added setup.py and some entrypoint-scripts for easier
+usage.
+"
+pre;simonvh_genomepy;545fc2129402f2c5ed9b851db437eb82023694f7;siebrenf <48289046+siebrenf@users.noreply.github.com>;1685533223;"Deploying to gh-pages from @ vanheeringen-lab/genomepy@d38e47738a3c2bd1d82ad35fa48196421488855b 🚀
+"
+pre;simonvh_genomepy;5c61068979fdc28a3b295f8888b797e23ea276d4;siebrenf <siebrenf@gmail.com>;1686648647;"allow empty metadata fields
+"
+pre;simonvh_genomepy;727a9f05c29643a451e267f4a44b3ee91b319aed;siebrenf <siebrenf@gmail.com>;1686648799;"dict.get to fix search
+"
+pre;simonvh_genomepy;f0babe3dd63b6cd2698d319d40a5f3d6ea968c9f;siebrenf <siebrenf@gmail.com>;1686748296;"fix NCBI header change
+"
+pre;simonvh_genomepy;972f052b41535e110a640fc10786a7f9a7ecdd3c;siebrenf <siebrenf@gmail.com>;1686749314;"hotfix 0.16.1
+"
+pre;simonvh_genomepy;17f1ec9622488721d97dda4bdc6a01938c023177;siebrenf <siebrenf@gmail.com>;1686749763;"Merge branch 'release/0.16.1'
+"
+pre;simonvh_genomepy;b63d70a4e1bc30ff1057736c91d29adf9089a32f;siebrenf <siebrenf@gmail.com>;1686749773;"Merge tag '0.16.1' into develop
+
+release 0.16.1
+"
+pre;simonvh_genomepy;3503869afd206f0103d7672bb7f91369b6aae24d;siebrenf <48289046+siebrenf@users.noreply.github.com>;1686749870;"Deploying to gh-pages from @ vanheeringen-lab/genomepy@17f1ec9622488721d97dda4bdc6a01938c023177 🚀
+"
+pre;simonvh_genomepy;158c4ac4aec4cf439e8b9e0f583fe155d3351253;siebrenf <siebrenf@gmail.com>;1686749962;"fix ref
+"
+pre;simonvh_genomepy;d0426ed0a3322354563d25276a8ab3f6950cb280;siebrenf <siebrenf@gmail.com>;1700647994;"updated units tests
+"
+post;simonvh_genomepy;c6597254f6665b96d501e617142a4b2af17d4b66;Maarten-vd-Sande <Maarten-vd-Sande@users.noreply.github.com>;1726130752;fix mysql dependency
+post;simonvh_genomepy;c82522f7b32ac8d781dba5500322bcce73d860c7;Maarten-vd-Sande <Maarten-vd-Sande@users.noreply.github.com>;1727341210;"fix mysql dependency (#250)
+
+"
+post;simonvh_genomepy;2f3a5ca5fe7b7c2d6726404d94b6da40234d6982;Siebren Frölich <48289046+siebrenf@users.noreply.github.com>;1734528017;Update README.md
+post;simonvh_genomepy;64244960a2a77360c925f788b9085253f1ce7e48;siebrenf <48289046+siebrenf@users.noreply.github.com>;1734528103;"Deploying to gh-pages from @ vanheeringen-lab/genomepy@2f3a5ca5fe7b7c2d6726404d94b6da40234d6982 🚀
+"
+post;simonvh_genomepy;d1f553ee10d3ff4cd056d6a9011e45aea02c79bc;siebrenf <siebrenf@gmail.com>;1740164475;"pinned/removed THREE bugged upstream package, fixed UCSC url changes, updated linters
+"
+post;simonvh_genomepy;81bf7c6a7339c4d8abb51897300e44c383e3789c;siebrenf <siebrenf@gmail.com>;1740164677;"Merge branch 'master' into develop
+"
+post;simonvh_genomepy;94ae7c9ce2f14399e151169e9327dc38a9e383ea;siebrenf <siebrenf@gmail.com>;1747058250;"fix ensembl + unit tests
+"
+post;simonvh_genomepy;f01eb71f2861ee149893ad9f8126ce5c075d1531;siebrenf <siebrenf@gmail.com>;1747060965;"changelog clarity
+"
+post;simonvh_genomepy;621391355e3fa5d40cd0311d87d4f817cf11bdad;siebrenf <siebrenf@gmail.com>;1747061100;"update version
+"
+post;simonvh_genomepy;22b80eee1e082a3a0ce045aba635eb21a67e0e74;siebrenf <siebrenf@gmail.com>;1747061128;"Merge branch 'release/0.16.2'
+"
+pre;brentp_cyvcf2;543a67b95acb0bc8d10199c186201514faa40b1e;Arya Massarat <23412689+aryarm@users.noreply.github.com>;1718723981;lower numpy requirement to 1.16 since that's the oldest version that works with py3.7
+pre;brentp_cyvcf2;22ccd3eefc96701f503b5e332296ae236899b00f;Arya Massarat <23412689+aryarm@users.noreply.github.com>;1718723981;lower numpy requirement to 1.16 since that's the oldest version that works with py3.7
+pre;brentp_cyvcf2;1c2f6fe510b761a6ed8525a284e5870dbc351c5e;Arya Massarat <23412689+aryarm@users.noreply.github.com>;1718726389;add notes about keeping the lowest supported numpy version in sync with the CI
+pre;brentp_cyvcf2;a14a432404f18811188f0da0e9bef41ceae9e39e;Arya Massarat <23412689+aryarm@users.noreply.github.com>;1718726389;add notes about keeping the lowest supported numpy version in sync with the CI
+pre;brentp_cyvcf2;5a4ab8184dfcd8dc801a5de44b9d946cba66258b;Arya Massarat <23412689+aryarm@users.noreply.github.com>;1718728341;remove pin on python versions for newest numpy test
+pre;brentp_cyvcf2;532b7d56cbcda17bf67a4eb548938272a7ceef74;Arya Massarat <23412689+aryarm@users.noreply.github.com>;1718728341;remove pin on python versions for newest numpy test
+pre;brentp_cyvcf2;86248965fd6f8724403c756bc8b606a48b76b29f;Brent Pedersen <bpederse@gmail.com>;1718734677;"bump
+"
+pre;brentp_cyvcf2;dad159671c7edd2e3394da257f735533168de131;Edward S. Rice <edsrice@gmail.com>;1726223200;"Allow Reader/Writer to be context managers
+
+By adding __enter__ and __exit__ methods to the Reader and Writer
+classes, they can now be used as context managers. Also added a test to
+make sure the Reader context manager works correctly. Did not add a test
+to do the same with Writer, because trying to write to a closed Writer
+results in a segfault rather than raising an exception that can be
+checked by pytest.
+"
+pre;brentp_cyvcf2;87026b93cf1ee8c965c8ef0ce8c6970b3f782f6b;Edward S. Rice <edsrice@gmail.com>;1726244898;"Remove enter/exit from Writer
+
+not necessary because they will be inherited"
+pre;brentp_cyvcf2;541ab16a255a5287c331843d8180ed6b9ef10e00;Edward S. Rice <edsrice@gmail.com>;1726496342;"Allow Reader/Writer to be context managers (#311)
+
+* Allow Reader/Writer to be context managers
+
+By adding __enter__ and __exit__ methods to the Reader and Writer
+classes, they can now be used as context managers. Also added a test to
+make sure the Reader context manager works correctly. Did not add a test
+to do the same with Writer, because trying to write to a closed Writer
+results in a segfault rather than raising an exception that can be
+checked by pytest.
+
+* Remove enter/exit from Writer
+
+not necessary because they will be inherited"
+post;brentp_cyvcf2;02bdf9392f0e9481e776f380518058481f26b4d8;Ben Jeffery <ben.jeffery@bdi.ox.ac.uk>;1757497161;"Add Python 3.13 support to CI workflows
+"
+post;brentp_cyvcf2;e091ff7c45b3b5d56f6c777bd27bed627e599636;Ben Jeffery <ben.jeffery@bdi.ox.ac.uk>;1757498987;"Fix cython compile
+"
+post;brentp_cyvcf2;5b667d00e218c94d92217eb1ba5578f4fc90fbd9;Ben Jeffery <ben.jeffery@bdi.ox.ac.uk>;1757506490;"Pin cython for older pythons
+"
+post;brentp_cyvcf2;5fe108e28ba7b612379c6837e453a3249b3f1a77;Ben Jeffery <ben.jeffery@bdi.ox.ac.uk>;1757581481;"macos-12 has been removed - replace with 13
+"
+post;brentp_cyvcf2;77f80e684a1c269958c256f8eec5a6fc664a41dd;Ben Jeffery <ben.jeffery@bdi.ox.ac.uk>;1757600450;"Add Python 3.13 support to CI workflows (#317)
+
+* Add Python 3.13 support to CI workflows
+
+* Fix cython compile
+
+* Pin cython for older pythons
+
+* macos-12 has been removed - replace with 13
+
+"
+post;brentp_cyvcf2;5f1a44b98d84ff6e779b54db8aef74b67e5d89c6;Brent Pedersen <bpederse@gmail.com>;1757603864;"exclude 313
+"
+post;brentp_cyvcf2;955ffdeae56900f78ca12bc97902bf556e95ba33;Brent Pedersen <bpederse@gmail.com>;1757610286;"CI:bump cibuildwheel
+"
+post;brentp_cyvcf2;4a349a4dfc3176f1d91fe92f33b74735fa7d3ccb;Brent Pedersen <bpederse@gmail.com>;1757611566;"try to fix wheels
+"
+post;brentp_cyvcf2;6c450e710eb18c240237e4d827c42b04f3a21a1d;Ben Jeffery <ben.jeffery@bdi.ox.ac.uk>;1759160746;"Enable PyPy wheels in CI
+"
+post;brentp_cyvcf2;274bbbdc2bc69fc77cee25e6eab9efaf020102da;Ben Jeffery <ben.jeffery@bdi.ox.ac.uk>;1759163892;"Move macOS x86 wheel builds to macOS 13
+"
+pre;dicarlolab-delft_pycqed_py3;382f84ea78b365b29a453442e1e733482d66bff2;Marios Samiotis <mariossam95@gmail.com>;1721731394;"Fixed multi_T1 function analysis (broken by mistake)
+"
+pre;dicarlolab-delft_pycqed_py3;6c9801541fecec25017a61fb0b9034b4dbecd296;Marios Samiotis <mariossam95@gmail.com>;1723560821;"State of repo (working)
+"
+pre;dicarlolab-delft_pycqed_py3;8b4c05be3d3a8ef6af07b705f70368467ebd94f7;Marios Samiotis <mariossam95@gmail.com>;1725529240;"Creating a dummy driver for the SHFPPC
+"
+pre;dicarlolab-delft_pycqed_py3;637559dd4aa0f5f8674f96c0cac7699c26e37ebc;Marios Samiotis <mariossam95@gmail.com>;1725533957;"Measurements work with LabOne 23.02.42414
+"
+pre;dicarlolab-delft_pycqed_py3;02f481d7f4dc87e926cd811e92d15cced32021d0;Marios Samiotis <mariossam95@gmail.com>;1726235248;"Current state of repo (everything works)
+"
+pre;dicarlolab-delft_pycqed_py3;a4932bfa01c4976678c88cf90fa36dfde67b3a46;Marios Samiotis <mariossam95@gmail.com>;1729165445;"Changes for QI 2.0
+"
+pre;dicarlolab-delft_pycqed_py3;55ad9b65c9eeef7a5de42e3fda54d7522b5bbaaa;Marios Samiotis <mariossam95@gmail.com>;1729187549;"Single-qubit measurement with QI 2.0 works
+"
+pre;dicarlolab-delft_pycqed_py3;b2f3985696230d40875a9baac10fd5c0826dc2cc;Marios Samiotis <mariossam95@gmail.com>;1730131704;"BSOD is fixed when running RB and IRB
+
+BSOD stands for Blue Screen Of Death
+"
+pre;dicarlolab-delft_pycqed_py3;6f50c9832e0adf0d29961b296acbb3d182dd3c8d;Marios Samiotis <mariossam95@gmail.com>;1730131789;"Starmon-7 when online still works, but Jupyter notebook not
+"
+pre;dicarlolab-delft_pycqed_py3;41c436abf5ffedd7014ff1c3bc3f747f844fea88;Marios Samiotis <mariossam95@gmail.com>;1730898874;"PycQED is now stable (both offline and online)
+
+Hurray!!
+"
+post;dicarlolab-delft_pycqed_py3;7d8246d8b36e729fb4d3ef8a08c11d9ad13bc4a5;Marios Samiotis <mariossam95@gmail.com>;1738699150;"Towards working automatic calibrations for Starmon-7
+"
+post;dicarlolab-delft_pycqed_py3;43c81ff88ca9c0dc9d8c92435089d9a898cd79c9;Marios Samiotis <mariossam95@gmail.com>;1746632759;"prior to Ruggero changing things
+"
+post;dicarlolab-delft_pycqed_py3;26ee586b7f34828e97bd41d71f288a983c8b7f73;Marios Samiotis <mariossam95@gmail.com>;1751990394;"Current state of repo
+"
+post;dicarlolab-delft_pycqed_py3;bd62d8b8d5e2a6fd23eb77a8af3cf3c5a35a88bf;Marios Samiotis <mariossam95@gmail.com>;1753883152;"Update python setup and checkout versions
+"
+post;dicarlolab-delft_pycqed_py3;6b29316781710cc2b6ffc24711064d5114f404e9;Marios Samiotis <mariossam95@gmail.com>;1753883291;"Changed the python versions to check for
+"
+post;dicarlolab-delft_pycqed_py3;65f6444e6788187e7314f8f90ea8d0b13cce65d2;Marios Samiotis <mariossam95@gmail.com>;1753883508;"Changed cmake version
+"
+post;dicarlolab-delft_pycqed_py3;c931534ff9570e8380397868eefef892813fba0d;Marios Samiotis <mariossam95@gmail.com>;1753883922;"Updated qutechopenql in requirements
+"
+post;dicarlolab-delft_pycqed_py3;872e8f9db6f6d2e8ba16ee262945ea1361cc3bd1;Marios Samiotis <mariossam95@gmail.com>;1753884582;"Updated requirements with current Python 3.9 environment
+"
+post;dicarlolab-delft_pycqed_py3;f256dbde828bbda0579cdf9679f7e344dbed74ee;Marios Samiotis <mariossam95@gmail.com>;1753884771;"Update requirements.txt
+"
+post;dicarlolab-delft_pycqed_py3;fff4e649aafe67638912c26391f48d2a44fb221c;Marios Samiotis <mariossam95@gmail.com>;1753884942;"Update requirements.txt
+"
+pre;benchmarking-initiative_benchmark-models-petab;ea4a0c809d8a1e792f5022621e0e1f91b53fef1a;dilpath <59329744+dilpath@users.noreply.github.com>;1585154545;"Model Salazar-Cavazos MBoC2020 (#64)
+
+* Model Salazar-Cavazos MBoC2020
+
+* Salazar-Cavazos erroneous simulatedData
+
+* Removed whitespace
+
+* Reduced model, working SBML
+
+* Model Salazar-Cavazos MBoC2020
+
+* Salazar-Cavazos erroneous simulatedData
+
+* Removed whitespace
+
+* Reduced model, working SBML
+
+* Simulated data and visualization file.
+
+Co-authored-by: LeonardSchmiester <leonard.schmiester@helmholtz-muenchen.de>"
+pre;benchmarking-initiative_benchmark-models-petab;735482024c047fca61b2f44e0baa643bb4f5a8c6;LeonardSchmiester <leonard.schmiester@helmholtz-muenchen.de>;1585214376;"Added first version of Froehlich et al.
+"
+pre;benchmarking-initiative_benchmark-models-petab;9ba6f9a5cb300b773324ac6e51bc073de9d9028f;LeonardSchmiester <leonard.schmiester@helmholtz-muenchen.de>;1585318243;"Updates parameters and added documentation in SBML model
+"
+pre;benchmarking-initiative_benchmark-models-petab;0cc67cc00cfb862faa5ac92017b36b986bb8e718;LeonardSchmiester <leonard.schmiester@helmholtz-muenchen.de>;1585322568;"Fixed implementation of ActD, CISoe and SOCS3oe
+"
+pre;benchmarking-initiative_benchmark-models-petab;02d0111022c66e8b5359ca175c932c38d40b0436;LeonardSchmiester <leonard.schmiester@helmholtz-muenchen.de>;1585322615;Merge branch 'master' into model_Bachmann_MSB2011
+pre;benchmarking-initiative_benchmark-models-petab;082aec1163f76de4ef25fc619c13da264abf3069;LeonardSchmiester <leonard.schmiester@helmholtz-muenchen.de>;1585328358;"Fixed wrong headers
+"
+pre;benchmarking-initiative_benchmark-models-petab;2a22b0df7bf6b8e12b9622320bb8d87ae92c27c5;LeonardSchmiester <leonard.schmiester@helmholtz-muenchen.de>;1585335008;"Added Model bachmann msb2011 (#85)
+
+* Added Bachmann model
+
+Co-authored-by: LoosC <carolin.loos@gmx.de>
+
+* Fixed implementation of ActD, CISoe and SOCS3oe
+
+* Fixed wrong headers
+
+Co-authored-by: LoosC <carolin.loos@gmx.de>"
+pre;benchmarking-initiative_benchmark-models-petab;fc1bf4490e69c9a4f4a084c2356bceb453f00e59;yannikschaelte <yannik.schaelte@gmail.com>;1586864327;"add hierarchical parameter column
+"
+pre;benchmarking-initiative_benchmark-models-petab;1464727c70780382c946c2890ec31f7a558ce389;dilpath <dilan.private+github@outlook.com>;1592931444;"Add model names to avoid recompilation.
+"
+pre;benchmarking-initiative_benchmark-models-petab;f984382d4301681b4b5ec22dc439fbf6f441cfac;dilpath <59329744+dilpath@users.noreply.github.com>;1592932107;"Add model names to avoid recompilation. (#90)
+
+"
+post;benchmarking-initiative_benchmark-models-petab;6175f9099ef7d38c5290280ba43fa2ae82ec1a50;IvaEwert <70632567+IvaEwert@users.noreply.github.com>;1602170038;Create petab_training_Zhao_QuantBiol2020.yaml
+post;benchmarking-initiative_benchmark-models-petab;e9bddbdf1ba872df1ff65eff673e3ec1a5859eff;IvaEwert <70632567+IvaEwert@users.noreply.github.com>;1602170131;Add files via upload
+post;benchmarking-initiative_benchmark-models-petab;e9788ecc259c3f50b56ea8e00c199acf55a1af03;IvaEwert <70632567+IvaEwert@users.noreply.github.com>;1602172482;Rename petab_training_Zhao_QuantBiol2020.yaml to Zhao_QuantBiol2020.yaml.yaml
+post;benchmarking-initiative_benchmark-models-petab;68523d9d44cc83121376602419d458dd4d98c32f;IvaEwert <70632567+IvaEwert@users.noreply.github.com>;1602172506;Rename Zhao_QuantBiol2020.yaml.yaml to Zhao_QuantBiol2020.yaml
+post;benchmarking-initiative_benchmark-models-petab;be618b4d33f88b95881ce72c44fe49ac30331403;IvaEwert <70632567+IvaEwert@users.noreply.github.com>;1602174162;Update simulatedData_Zhao_QuantBiol2020.tsv
+post;benchmarking-initiative_benchmark-models-petab;00456b3ae741b6bb73ada3920d01299be02f2947;dilpath <59329744+dilpath@users.noreply.github.com>;1602229793;"Model zhao quant biol2020 (#95)
+
+Co-authored-by: IvaEwert <70632567+IvaEwert@users.noreply.github.com>"
+post;benchmarking-initiative_benchmark-models-petab;48ea21d876826d6c88ec109643f1fbe2cd74df10;Paul Jonas Jost <jost.pauljonas@gmail.com>;1602838190;"added model Giordano_Nature2020
+"
+post;benchmarking-initiative_benchmark-models-petab;a1640b5598a9fe37aa529b1d1c6afb8154fe2d01;Paul Jonas Jost <jost.pauljonas@gmail.com>;1602840584;"added simulatedData
+"
+post;benchmarking-initiative_benchmark-models-petab;d124853617dcda0b65bc23435afb7a19a94e526e;PaulJonasJost <70631928+PaulJonasJost@users.noreply.github.com>;1602840870;"added model Giordano_Nature2020 (#97)
+
+* added model Giordano_Nature2020
+
+* added simulatedData"
+post;benchmarking-initiative_benchmark-models-petab;88dbf767ec4d107c988916f35203d4723929b00b;vanako <65909231+vanako@users.noreply.github.com>;1609248749;"new model bertozzi close #99
+"
+pre;gsdlab_clafer;54db4258e7b777075a9b9079fb954f4a53542223;Michal Antkiewicz <mantkiew@gsd.uwaterloo.ca>;1517368704;"allow happy 1.19.5 again as 1.19.8 is not available in hvr's PPA
+"
+pre;gsdlab_clafer;af25a270fde0ecdc35639c0d37fba53e4080c595;Michal Antkiewicz <mantkiew@gsd.uwaterloo.ca>;1517371122;"allow alex 3.1.7 again as it is the latest available in hvr's PPA
+"
+pre;gsdlab_clafer;3eee93e3bd048de853b03bcbd59425f24b62165d;Michal Antkiewicz <mantkiew@gsd.uwaterloo.ca>;1517441282;"remove unnecessary version constraint on clafer library
+"
+pre;gsdlab_clafer;23c7b41eca220dc62d05c065a6e9cdb3637586a9;Michał Antkiewicz <mantkiew@gsd.uwaterloo.ca>;1517508371;"Release 0.5.0 (#94)
+
+* Behavioral (#56)
+
+* Added temporal language elements to grammar
+
+* Integrated behavioral clafer grammar and implemented desugaring of temporal expressions, transitions and modalities.
+
+* Adjusted grammar; Finished implemented desugaring rules; Fixed sugaring of some expressions; Added simple test runner 'desugartests.sh' in test/positive/
+
+* Implemented Alloy-Ltl model code generator
+
+* Refreshed grammar generated code and added missing files to clafer.cabal
+
+* AlloyLtl generator: fixed mutable clafer cardinalities
+
+* Improvments in AlloyLtl generator: created root clafer which is umbrella for all top level clafer relations. Changed time binding in constraints.
+
+* Updated gramamr with new pattern expressions and updated pattern ltl  encodings
+
+* removed duplicate clafer names from test cases
+
+* ClaferBinding = Maybe UID
+
+Pass GenEnv instead of ClaferArgs around
+removed ClaferArgs from GenCtx
+
+* change soft constraint from `(...)` to `assert [...]`
+
+* Added lonce temporal pattern
+
+* Fixed parent constraint; fixed first local time instance declaration; fixed group cardinality constraint
+
+* inheritance of mutability
+
+* regen parser
+
+* fixed syntax of transitions/removed async transition
+
+--> next step (X)
+-->> many steps (U)
+
+* removed FinalConstraint, added IClaferModifiers and their inheritance, html rendering of  temp modifiers, root clafer initial and final,
+
+* fixed warnings
+
+* fixed test cases using set intersection (& to **)
+
+* fixed changing & to **
+
+* initial and final inherited correctly (were ""flipped"")
+
+* added the missing rules to HTML generator
+
+(fixed non-exhaustive patterns)
+
+* html rendering of transition on clafer decl and the remaining patterns
+
+* moved PowerWindow models to experimental
+
+they use redefinition, which is not supported yet
+
+* fixed ""before"" pattern
+
+was ""between"" by mistake
+
+* updated all tmp positive test cases, moved history to experimental
+
+removed redundant test cases (clones)
+
+* updated regressions for xml, html, and dot
+
+* updated regressions for alloy and js
+
+* fixed test case (broken comment)
+
+* added temporal keywords to reserved keyword list
+
+* automatic selection of static of dynamic Clafer subset for Alloy generation. Choco and Python outputs only for static subset.
+
+* fixed test suites for default Alloy42 mode
+
+* updated Python regressions and few others
+
+* removed validation is NoCompilerResult, fixed XML Schema
+
+* updated XML validator
+
+* bumped version to 0.4.0
+
+* fixed description in readme
+
+* Fixed: root level constraint issues, mutable subclafer cardinality facts, restricted network package version in clafer.cabal
+
+* Allow using AlloyLtl for static subset of Clafer
+
+Must provide two modes: 4.1 or 4.2 + whether LTL or not (default)
+
+* code formatting and error msgs
+
+* fixed Int generation
+
+need to check istop otherwise we get @r_integer instead of Int generated
+
+* update regression
+
+* Updated to work with the new version of custom BNFC tool
+
+* updated missed old Absclafer import
+
+* create correct root in UID->IClafer map,
+
+* scope computation: multiply by trace length for mutable clafers
+
+renamed `fixed_scope` to `trace_len`
+
+* Fixed issue #1: after-until scope was not properly parsed
+
+* Fixed translation of WeakUntil operator in AlloyLtl ouput
+
+* added assertion generation to AlloyLtl
+
+* Fixed assertions in AlloyLtl
+
+* adapted the new python generator to behavioral
+
+* ported group card. fix to AlloyLtl
+
+-- TODO: need to include time stamps
+genParentSubrelationConstriant (needed for proper inheritance from
+nested abstract clafers)
+
+* fixed --trace-len default  to 10
+
+* preliminary fix for quantifier expression in form `all x : A.B.C | x...`. Added test cases.
+
+however, for the resulting Alloy code, Alloy complains that ""Analysis
+cannot be performed since it requires higher-order quantification that
+could not be skolemized.""
+
+* moved redefinition test case to failing
+
+it is not implemented yet
+
+* Fixed desugaring of lonce pattern with before scope
+
+* added a missing assertion to tmp_clafertransitions02.cfr
+
+* Added parenting constraint that prevents subgraphs which are not connected to root
+
+* updated test cases
+
+* updated test case for eventually constraint
+
+* updated test case and commented constraint giving error
+
+* testcase for history constraint
+
+* TrafficLight Update
+
+* test for commit
+
+* added to regression testing
+
+* AlloyLtl changes: Added local_first function and switched constraints to using it; Added several constraints to prevent subinstances from reappearing and changing parents during a trace.
+
+* Fixed parenting constraint in alloyltl generator
+
+* fixed Suite.Positive
+
+* Deferred initally desugaring until after analysis (generator stage), which fixed alloy output of initially constraint
+
+* rebuilt XsdCheck
+
+* fix build on GHC 7.10.1, remove warnings
+
+* Fixed bFoldlOr to have a more canonical name and implementation
+This is mostly to test my build, test and Haskell setup + commit rights
+
+* refactored the header of the AlloyLtl generator
+Tried to make both the generator and the alloy output more
+readable.  Primarily wanted to get into the code a bit.
+
+* Updated Alloy Ltl encodings to the latest proposal by A.Cunha
+
+* Partially fixed transitions issue #9. Alloy output now compiles, but needs extra fining
+
+* Resolved issue when reference to mutable parent was not joined with correct t relation (it was getting t primes although it needed t)
+
+* Partly fixed issue #3: local variable declarations are now allowed - there is still issue with declarations in top level constraints. Also fixed parenting constraints, that prevent clafers having subclafers if they have no parents.
+
+* Removed leftover trace call
+
+* Removed unnecessary domain restrictions on State and replaced declaration 'one t:' to 'let t='
+
+* Added empty function root clafer adjustment
+
+* Added finaltarget and finalref modifiers for references. Desugaring needs more work.
+
+* Fix desugaring of reference expressions with modifiers
+
+* Move inline state declarations to outside file to be embedded using template haskell
+
+* Remove _mutable field from IClafer; Use final modifier instead to detect mutability
+
+* Remove debugging trace printing from Inheritance Resolver
+
+* Add state suffix to mutable reference clafers
+
+* Generate top level clafer ids without 'r_' relation prefix
+
+* Remove leftover debugging traces
+
+* Fix alloyltl encoding of initial modifier
+
+* remove Python mode and skip-goals option, remove .x and .y files, upgrade to LTS-5.15
+
+* fixed test cases. ""X"" is a keyword in bClafer
+
+* GHC version compatibility for ErrM.hs
+
+* fixed grammar for min, max, and if/then/else. Fixed a test case 'X' is reserved
+
+All test suite models now compile
+
+* updated test case 'objectivesMinMax' - 'X' is a reserved keyword
+
+* Ensure that instance occurs at least once as child of parent instance
+
+* only produce Choco output for static subset
+
+* add test cases
+
+* fixed test/experimental/tmp_PowerWindowDesignModel.cfr
+
+* commented out or removed failing temporal assertions
+
+* added temporal regressions for reference
+
+* fix  to be , and  to be
+
+* warning cleanup, missing pattern matches, linting
+
+* updated regressions
+
+* styling of temporal keywords, updated regressions
+
+* compile temporal models to .tmp.als, and static models to .als so that ClaferIG can distinguish
+
+* save .tmp.als files as .als for backwards compatibility
+
+* Release 0.5.0
+
+* add stateTrace.als to datafiles so that it's present in sdist. Otherwise cabal install does not work
+
+* prepare 0.5.0 release and travis build
+
+* add upperbound on base dependency
+
+* allow happy 1.19.5 again as 1.19.8 is not available in hvr's PPA
+
+* allow alex 3.1.7 again as it is the latest available in hvr's PPA
+
+* remove unnecessary version constraint on clafer library
+"
+pre;gsdlab_clafer;d9808abe13878f7baea9145c01a6451be5ea9412;Michal Antkiewicz <mantkiew@gsd.uwaterloo.ca>;1546738813;"upgrade to LTS-12.26 (GHC 8.4.4)
+"
+pre;gsdlab_clafer;6b6d11bbc2c315cf8d799aa2971bb44b78387ae0;Michal Antkiewicz <mantkiew@gsd.uwaterloo.ca>;1546744166;"switch travis to use GHC 8.4.4 and cabal-install 2.2
+"
+pre;gsdlab_clafer;11dbaa763a0609dc32a57c1d5bcd68999f206363;Michal Antkiewicz <mantkiew@gsd.uwaterloo.ca>;1546745136;"update alex and happy versions
+"
+pre;gsdlab_clafer;3abc0e09bfc5388019393ac8e1870fc6a4454fbc;Michał Antkiewicz <mantkiew@gsd.uwaterloo.ca>;1546745143;"Merge 11dbaa763a0609dc32a57c1d5bcd68999f206363 into 23c7b41eca220dc62d05c065a6e9cdb3637586a9
+"
+pre;gsdlab_clafer;30f871953a34fa8b2bb7abacba8ca50a509857ff;Klaas Gadeyne <klaas.gadeyne@gmail.com>;1558472026;"Seems alloy download url has changed
+"
+pre;gsdlab_clafer;a30a645ae1e4fc793851e53446d220924038873a;toeklk <toeklk@users.noreply.github.com>;1559095968;"Seems alloy download url has changed (#96)
+
+"
+post;gsdlab_clafer;2bea0e35f68bd0538856fc706071a881f0967aca;Michał Antkiewicz <michal.antkiewicz@uwaterloo.ca>;1692742102;"migrate to GHC 9.2.8 and 9.4.6
+"
+post;gsdlab_clafer;30a6556b56c97218d93704c5a00b98a405e481a1;Michał Antkiewicz <michal.antkiewicz@uwaterloo.ca>;1692885563;"use gsdlab/StringMap fork until merged
+"
+post;gsdlab_clafer;a32b60e57dd2767bb298e94262c3f5f7a2bf7e0e;Michał Antkiewicz <michal.antkiewicz@uwaterloo.ca>;1692898670;"update versions and revise build instructions
+"
+post;gsdlab_clafer;424736f8d06989a9572f46f4ad16a9b31f61f1af;Michał Antkiewicz <michal.antkiewicz@uwaterloo.ca>;1692899513;"gitignore stack.yaml.lock
+"
+post;gsdlab_clafer;9bc227f6183d5cf032ffb4aee09a05b83b492b73;Michał Antkiewicz <michal.antkiewicz@uwaterloo.ca>;1692900077;"update gsdlab/StringMap to the latest commit
+"
+post;gsdlab_clafer;a80622fee5024fb00be39cfa9290db186b1ddf97;Michał Antkiewicz <michal.antkiewicz@uwaterloo.ca>;1692903230;"update release date
+"
+post;gsdlab_clafer;c5d3f1c91e42b9246bda90fbf86453620fa75687;Michał Antkiewicz <michal.antkiewicz@uwaterloo.ca>;1692903345;"update with master, resolve conflict
+"
+post;gsdlab_clafer;35e65534aa2ed81e767617c29965e81d345f783a;Michał Antkiewicz <michal.antkiewicz@uwaterloo.ca>;1692903737;"add WISE Lab
+"
+post;gsdlab_clafer;fa50fa167601061270ec0e62ba4e4408ffe41852;Michał Antkiewicz <michal.antkiewicz@uwaterloo.ca>;1692904392;"simplify constraint as MonadFail implies Monad
+"
+post;gsdlab_clafer;24d0b84b7d461415258a3f0dbe987870d99f305c;Michał Antkiewicz <michal.antkiewicz@uwaterloo.ca>;1692904408;"update maintainer email
+"
+pre;acellera_htmd;2f2a6da38366702f7d519a71cfff820a1a22f236;Stefan Doerr <stefdoerr@gmail.com>;1683039759;"fix bugs with atomtype decollisioning
+"
+pre;acellera_htmd;bcd72fef5941017b681e5414441e3a1d747dc135;Stefan Doerr <stefdoerr@gmail.com>;1683107578;"update the deployment
+"
+pre;acellera_htmd;f2153d714e971357214689e25ef2e4dd532ba186;Stefan Doerr <stefdoerr@gmail.com>;1683298675;"updated membranebuilder to work purely with AMBER
+"
+pre;acellera_htmd;f4b5463358a3606d5f4ed1c3512b5861ae750f9d;Stefan Doerr <stefdoerr@gmail.com>;1683631760;"move back to acemd instead of acemd3
+"
+pre;acellera_htmd;43a2f0a7fa10275df9c3dd31aca53ec7f690a981;Stefan Doerr <stefdoerr@gmail.com>;1683638458;"updated tests
+"
+pre;acellera_htmd;070a2b8cef5cfeb69a52e7106435783c303049da;Stefan Doerr <stefdoerr@gmail.com>;1683899919;"revert to ff14SB and add warning on 19SB+tip3p
+"
+pre;acellera_htmd;fa2512a7d0bfd4c0f78ba6d3cbfacc1b85375325;Stefan Doerr <stefdoerr@gmail.com>;1687251284;"remove viewer from config
+"
+pre;acellera_htmd;8431099b1d0bd34652ddbaa8df76707735d53bcc;Stefan Doerr <stefdoerr@gmail.com>;1687251300;"remove viewer from config
+"
+pre;acellera_htmd;9b4c9b01a7d5aa9db52b8d7de3d337093f4ba4f8;Stefan Doerr <stefdoerr@gmail.com>;1687251388;"disable default building and equilibration of membranes in membranebuilder
+"
+pre;acellera_htmd;babab711e524bbd2fe5dff5509bec8a8d9fbdc3e;Stefan Doerr <stefdoerr@gmail.com>;1687255102;"add scipy to deps
+"
+post;acellera_htmd;8a0311354e0e43f9e13eb621b930b3921b0b86ea;Stefan Doerr <stefdoerr@gmail.com>;1698072171;"update noncanonical building for latest parameterize
+"
+post;acellera_htmd;306321925aa05c53d7f4c032e6fdfb5443917ba9;Stefan Doerr <stefdoerr@gmail.com>;1698073405;"CI was out of date
+"
+post;acellera_htmd;d7b687170e03f4280ab1a2df25ae70c3fcbf4e95;Stefan Doerr <stefdoerr@gmail.com>;1698076759;"try with boa
+"
+post;acellera_htmd;f1b3d56af8181dd74a85bfccdbff8f7e344282ef;Stefan Doerr <stefdoerr@gmail.com>;1698077434;"restore testing
+"
+post;acellera_htmd;9e2502edbc8571fcc79ef2073b960b71fdd8cda8;Stefan Doerr <stefdoerr@gmail.com>;1698084235;"update defaults for ncaa parameterization
+"
+post;acellera_htmd;f0bba2ce8c8237a806300e28ec5247721907c7b4;Stefan Doerr <stefdoerr@gmail.com>;1699258041;"less intervention when combining charmm parameters to avoid issues with weird atom types
+"
+post;acellera_htmd;20ee35243c8cef6093fb84ed98c8b79f67f31e2a;Stefan Doerr <stefdoerr@gmail.com>;1699259256;"update CI
+"
+post;acellera_htmd;d4e92ecd4e4ae7a32c9ba5f99234f0996a7c999a;AdriaPerezCulubret <a.perez@acellera.com>;1704280826;"old updated for bandit
+"
+post;acellera_htmd;afef3858a4f5df72fd3827af6a3b0f72b8996f7d;Adria Perez <AdriaPerezCulubret@users.noreply.github.com>;1704281612;"old updated for bandit (#1078)
+
+"
+post;acellera_htmd;ee42df0b1612d5f42f75c12f3a7b75501d03ba69;Stefan Doerr <stefdoerr@gmail.com>;1705916045;"support for manually capping individual residues instead of segments
+"

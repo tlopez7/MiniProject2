@@ -1,0 +1,3 @@
+# Reflection: acellera_htmd
+
+Acellera/htmd shows a clear boom-and-fade pattern: intense activity from 2016-2019 settles into a persistent low trickle for 2020-2025, including a 3-month gap (2023-07 to 2023-09). This gap was easy to interpret: both pre- and post-gap commits are routine bug-fix and parameterization maintenance, with no dramatic change in the type of work being done -- a normal short lull in a mature, still-maintained tool rather than a true abandonment scare. The primary maintainer (Stefan Doerr) is present throughout, joined by a new contributor (Adria Perez) after the gap, suggesting a small, stable core team still actively supports the software even though its most active development period is well behind it.

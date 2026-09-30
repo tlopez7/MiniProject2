@@ -1,0 +1,11 @@
+Project,ncommits,nauthors,from,to,nstars,nforks,lastGHCommitDate,LongestGapStart,LongestGapEnd,LongestGapLength,NumCommitsAfterLastGap,ActivityPattern,NumberOfGapsInTimeline,BeforeThemes,AfterThemes
+gavinsimpson_permute,552,6,2010-01-04,2026-02-05,24,5,2026-09-05,2019-04,2021-10,31,64,Declining,14,Bug fixes:Dependency updates,Bug fixes:Documentation updates
+openclimatefix_satip,2104,49,2020-11-02,2025-10-06,44,34,2025-08-27,2021-07,2021-08,2,1813,Irregular,0,Documentation updates:Feature development,Bug fixes:Other
+juliaopt_convex.jl,2851,113,2014-02-21,2025-07-15,597,123,2026-08-19,2023-03,2023-06,4,973,Irregular,2,Feature development:Release,Other:Bug fixes
+eljost_pysisyphus,7172,38,2017-07-05,2025-10-29,134,49,2025-10-29,2017-10,2017-10,1,6986,Irregular,0,Feature development:Other,Feature development:Bug fixes
+simonvh_genomepy,1601,18,2016-12-16,2025-09-30,411,41,2026-06-09,2023-12,2024-08,9,49,Declining,5,Bug fixes:Release,Bug fixes:Dependency updates
+brentp_cyvcf2,753,61,2015-08-12,2025-10-13,449,80,2026-09-10,2024-10,2025-08,11,18,Irregular,3,Dependency updates:Feature development,Dependency updates:Bug fixes
+dicarlolab-delft_pycqed_py3,8771,190,2016-01-04,2025-09-25,74,46,2025-07-31,2024-12,2025-01,2,27,Declining,0,Feature development:Bug fixes,Dependency updates:Feature development
+benchmarking-initiative_benchmark-models-petab,722,56,2020-02-26,2025-11-01,35,20,2026-09-19,2020-07,2020-09,3,585,Cyclical,1,Feature development:Bug fixes,Feature development:Other
+gsdlab_clafer,2089,29,2011-01-21,2025-02-18,49,15,2026-07-15,2019-06,2023-07,50,20,Declining,7,Dependency updates:Release,Dependency updates:Other
+acellera_htmd,5610,51,2015-09-26,2025-06-19,276,60,2026-09-23,2023-07,2023-09,3,181,Declining,1,Bug fixes:Feature development,Bug fixes:Dependency updates
